@@ -1,0 +1,18 @@
+{
+	"Seti_indigo_label": true,
+	"Seti_indigo_tab": true,
+	"Seti_indigo_tabclose": true,
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"color_scheme": "Packages/Theme - Seti Monokai/scheme/Seti Monokai.tmTheme",
+	"font_face": "Consolas",
+	"font_size": 11,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"original_color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"overlay_scroll_bars": "enabled",
+	"theme": "Seti_orig.sublime-theme"
+}

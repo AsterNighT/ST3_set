@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"C Improved",
+		"ChineseLocalizations",
+		"ConvertToUTF8",
+		"FileDiffs",
+		"IMESupport",
+		"Markdown Preview",
+		"Monokai Extended",
+		"Package Control",
+		"PackageResourceViewer",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter",
+		"SublimeREPL",
+		"Terminal",
+		"Theme - Seti Monokai",
+		"WordCount"
+	]
+}

@@ -1,0 +1,30 @@
+{
+    "cmd": ["g++", "${file}", "-o", "${file_path}/${file_base_name}","-Wall"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:?(.*)$",
+    "working_dir": "${file_path}",
+    "encoding":"cp936",
+    "selector": "source.cpp",
+    "variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["cmd","/C","start","cmd","/c", "${file_path}/${file_base_name}.exe &pause"]
+        },
+        {
+            "name": "Compile with -g",
+            "cmd": ["g++", "${file}", "-o", "${file_path}/${file_base_name}","-g"]
+        },
+        {
+            "name": "GDB",
+            "cmd": ["cmd","/C","start","gdb", "${file_base_name}.exe"]
+        },
+        {
+            "name": "compile with gprof",
+            "cmd": ["g++", "${file}", "-pg", "-o", "${file_path}/${file_base_name}"]
+        },
+        {
+            "name": "gprof",
+            "cmd": ["gprof", "-b", "${file_path}/${file_base_name}.exe"]
+        }
+    ]
+}

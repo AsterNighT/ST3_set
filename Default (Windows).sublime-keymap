@@ -1,0 +1,4 @@
+[
+	{"keys": ["alt+v"], "command": "markdown_preview", "args": { "target": "browser"} },
+	{ "keys": ["alt+t"], "command": "open_terminal" },
+]
